@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18ba2028-bf98-485d-bbb6-455a1b421c92" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Back-end-svm/app.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Wu6NgEXrLaXGTySPy1gfroygwv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/VGG_19" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/VGG_19" />
+      <recent name="$PROJECT_DIR$/Front-end" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/VGG_19" />
+      <recent name="$PROJECT_DIR$/Back-end-svm" />
+      <recent name="$PROJECT_DIR$/Front-end" />
+      <recent name="$PROJECT_DIR$/scripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.flaskProject6">
+    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="flaskProject6" type="Python.FlaskServer">
+      <module name="flaskProject6" />
+      <option name="target" value="$PROJECT_DIR$/Back-end-svm/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18ba2028-bf98-485d-bbb6-455a1b421c92" name="Changes" comment="" />
+      <created>1697570079605</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697570079605</updated>
+      <workItem from="1697570084603" duration="77000" />
+      <workItem from="1697570184915" duration="6240000" />
+      <workItem from="1697633972134" duration="3614000" />
+      <workItem from="1697638785861" duration="9049000" />
+      <workItem from="1698255915854" duration="939000" />
+      <workItem from="1698307356596" duration="4707000" />
+      <workItem from="1698351932669" duration="182000" />
+      <workItem from="1698352242830" duration="11000" />
+      <workItem from="1698352307629" duration="1112000" />
+      <workItem from="1698849548132" duration="19688000" />
+      <workItem from="1700123930166" duration="372000" />
+      <workItem from="1700124343404" duration="853000" />
+      <workItem from="1700125231901" duration="308000" />
+      <workItem from="1700329201002" duration="11192000" />
+      <workItem from="1700342429023" duration="1119000" />
+      <workItem from="1700344065792" duration="4301000" />
+      <workItem from="1700384800940" duration="12348000" />
+      <workItem from="1700482769159" duration="8584000" />
+      <workItem from="1700508007453" duration="571000" />
+      <workItem from="1700508757392" duration="6496000" />
+      <workItem from="1700516565862" duration="682000" />
+      <workItem from="1700558017999" duration="13828000" />
+      <workItem from="1700642550749" duration="190000" />
+      <workItem from="1700727607512" duration="3781000" />
+      <workItem from="1701121080598" duration="2170000" />
+      <workItem from="1701202987021" duration="8584000" />
+      <workItem from="1701262219314" duration="15737000" />
+      <workItem from="1701337393196" duration="110000" />
+      <workItem from="1701338488154" duration="207000" />
+      <workItem from="1702155199315" duration="337000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,99 @@
+POST http://localhost:5000/predict
+Content-Type: application/json
+
+{
+  "base64_features": "SGVsbG8gd29ybGQhCgpJdCBpcyBhIG5lZWQgZXhhbXBsZSBvZiBhIGRlZmluaW5nIHN0dW5uaW5nIGF1ZGlvLCBlbmNvZGluZyBkZXNpZ25pbmcgdG8gYXJlIGNvbW1vbmx5IGVudHJhY3RlZCBpbiBiYXNlNjQuCgpUaGlzIGlzIGEgYmFzZTY0IGVuY29kaW5nIHNjaGVtZXMgYXJlIGNvbnF1ZXN0LCBlc3BlY2lhbGx5IHdoZW4gYmUgY29tcGxleCBkYXRhLCBlc3BlY2lhbGx5IHdoZW4gdHJhbnNmZXJyZWQgb3ZlciBtZWRpYSB0aGF0IGFyZSBkZXNpZ25lZCBkYXRhLCBlc3BlY2lhbGx5IHdoZW4gdHJhbnNmZXJyZWQgYXJlIGNvbW1vbmx5IHVzZWQgd2hlbiB0aGVyZSBpcyBhIG5lZWQgZXhhbXBsZSB3b3JrLCBtZWRpYSB0aGF0IGFyZSBkZXNpZ25pbmcgdG8gYXJlIGNvbW1vbmx5IGVudHJhY3RlZCBpbiBiYXNlNjQuCg=="
+}
+
+<> 2023-10-17T211252.200.json
+
+###
+
+POST http://localhost:5000/predict
+Content-Type: application/json
+
+{
+  "base64_features": "SGVsbG8gd29ybGQhCgpJdCBpcyBhIG5lZWQgZXhhbXBsZSBvZiBhIGRlZmluaW5nIHN0dW5uaW5nIGF1ZGlvLCBlbmNvZGluZyBkZXNpZ25pbmcgdG8gYXJlIGNvbW1vbmx5IGVudHJhY3RlZCBpbiBiYXNlNjQuCgpUaGlzIGlzIGEgYmFzZTY0IGVuY29kaW5nIHNjaGVtZXMgYXJlIGNvbnF1ZXN0LCBlc3BlY2lhbGx5IHdoZW4gYmUgY29tcGxleCBkYXRhLCBlc3BlY2lhbGx5IHdoZW4gdHJhbnNmZXJyZWQgb3ZlciBtZWRpYSB0aGF0IGFyZSBkZXNpZ25lZCBkYXRhLCBlc3BlY2lhbGx5IHdoZW4gdHJhbnNmZXJyZWQgYXJlIGNvbW1vbmx5IHVzZWQgd2hlbiB0aGVyZSBpcyBhIG5lZWQgZXhhbXBsZSB3b3JrLCBtZWRpYSB0aGF0IGFyZSBkZXNpZ25pbmcgdG8gYXJlIGNvbW1vbmx5IGVudHJhY3RlZCBpbiBiYXNlNjQuCg=="
+}
+
+<> 2023-10-17T211251.200.json
+
+###
+
+POST http://localhost:5000/predict
+Content-Type: application/json
+
+{
+    "base64_features": "AQAAAAIAAAAAAgAAAAI="
+}
+
+<> 2023-10-17T205748.200.json
+
+###
+
+POST http://localhost:5000/predict
+Content-Type: application/json
+
+{
+    "base64_features": "AQAAAAIAAAAAAgAAAAI="
+}
+
+<> 2023-10-17T205746.200.json
+
+###
+
+POST http://localhost:5000/predict
+Content-Type: application/json
+
+{
+    "base64_features": "AQAAAAIAAAAAAgAAAAI="
+}
+
+<> 2023-10-17T203613.200.json
+
+###
+
+POST http://localhost:5000/predict
+Content-Type: application/json
+
+{
+    "base64_features": "AQAAAAIAAAAAAgAAAAI="
+}
+
+<> 2023-10-17T203612.200.json
+
+###
+
+POST http://localhost:5000/predict
+
+Content-Type: application/json
+{
+    "base64_features": "AQAAAAIAAAAAAgAAAAI="
+}
+
+<> 2023-10-17T203600.200.json
+
+###
+
+POST http://localhost:5000/predict
+
+Content-Type: application/json
+{
+    "base64_features": "AQAAAAIAAAAAAgAAAAI="
+}
+
+<> 2023-10-17T203558.200.json
+
+###
+
+POST http://localhost:5000/predict
+Content-Type: application/json
+
+{
+    "base64_features": "AQAAAAIAAAAAAgAAAAI="
+}
+
+<> 2023-10-17T203547.200.json
+
+###
+

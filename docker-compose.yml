@@ -1,0 +1,28 @@
+version: '3'
+services:
+  frontend:
+    build:
+      context: ./Front-end  # Path to the directory containing frontend Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./Front-end:/app
+    depends_on:
+      - backend
+      - vgg19_backend
+
+  backend:
+    build:
+      context: ./Back-end-svm  # Path to the directory containing backend Dockerfile
+    ports:
+      - "8081:8081"
+    volumes:
+      - backend_data:/Back-end-svm  # Stocke les modèles SVM
+
+  vgg19_backend:
+      build:
+        context: ./VGG_19  # Path to the directory containing VGG19 backend Dockerfile
+      ports:
+        - "8082:8082"
+volumes:
+    backend_data:

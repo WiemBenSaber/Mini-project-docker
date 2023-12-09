@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction de Genre Audio</title>
+</head>
+<body>
+    <h1>Prediction de Genre Audio</h1>
+    <form method="POST" action="/" enctype="multipart/form-data">
+        <input type="file" name="audio_file" accept=".wav" required>
+        <br><br>
+        <label>
+            <input type="radio" name="prediction_type" value="svm">
+            SVM Prediction
+        </label>
+        <label>
+            <input type="radio" name="prediction_type" value="vgg19">
+            VGG19 Prediction
+        </label>
+        <br><br>
+        <button type="submit">Predict Genre</button>
+    </form>
+
+    <div id="prediction_result" style="margin-top: 20px;">
+        {% if predicted_genre %}
+            <p>Genre audio prédit: {{ predicted_genre }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
