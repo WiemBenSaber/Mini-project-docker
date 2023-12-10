@@ -26,7 +26,7 @@ pipeline {
                    sleep 20
                     echo 'tested..'
                     // Exécuter les tests
-                    sh 'python -m unittest tests/prediction_tests.py'
+                    sh 'python3 -m unittest tests/prediction_tests.py'
            }
        }
 
