@@ -10,6 +10,8 @@ pipeline {
 
                     // Build and launch Docker containers using docker-compose
                     sh '/usr/local/bin/docker-compose up -d --build'
+                    sh '/usr/local/bin/docker-compose logs'
+                    sh '/usr/local/bin/docker-compose ps'
                 }
             }
         }
