@@ -11,8 +11,8 @@ pipeline {
 
                     // Construire et lancer les conteneurs Docker
                     sh 'pip3 install docker-compose'
-                    //sh 'docker-compose build'
-                    sh 'docker-compose up -d'
+                    sh 'docker-compose build'
+                    sh 'docker-compose up'
                     sh 'docker-compose ps'
 
 
