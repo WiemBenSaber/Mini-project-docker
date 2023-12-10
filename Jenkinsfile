@@ -11,9 +11,9 @@ pipeline {
 
                     // Construire et lancer les conteneurs Docker
                    // sh 'pip3 install docker-compose'
-                    sh 'docker compose build'
-                    sh 'docker compose up'
-                    sh 'docker compose ps'
+                    sh '/usr/local/bin/docker-compose build'
+                    sh '/usr/local/bin/docker-compose up'
+                    sh '/usr/local/bin/docker-compose ps'
 
 
                 }
