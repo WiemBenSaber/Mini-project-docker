@@ -2,28 +2,32 @@ pipeline {
     agent any
 
     stages {
-        stage('Build and Deploy Containers') {
+        stage('Build and Test') {
             steps {
                 script {
-                    sh 'docker-compose -f docker-compose.yml up -d --build'
+                    // Installer les dépendances nécessaires
+                    sh 'pip install requests'
+
+                    // Construire et lancer les conteneurs Docker
+                    sh 'docker-compose build'
+                    sh 'docker-compose up -d'
+
+                    // Attendre un peu pour permettre aux conteneurs de démarrer
+                    sleep 20
+                     echo 'tested..'
+                    // Exécuter les tests
+                    sh 'python -m unittest tests/test_app.py'
                 }
             }
         }
 
-        stage('Run Tests') {
-            steps {
-                script {
-                    sh 'docker-compose -f docker-compose.yml exec frontend python tests/prediction_tests.py'
-                }
-            }
-        }
+        // Ajoutez d'autres étapes de pipeline selon vos besoins
+    }
 
-        stage('Cleanup') {
-            steps {
-                script {
-                    sh 'docker-compose -f docker-compose.yml down'
-                }
-            }
+    post {
+        always {
+            // Arrêter et supprimer les conteneurs Docker après l'exécution du pipeline
+            sh 'docker-compose down'
         }
     }
 }
