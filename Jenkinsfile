@@ -20,9 +20,17 @@ pipeline {
                 }
             }
         }
+         stage('Wait for Backend Services') {
+            steps {
+                script {
+                    sh '/Users/wiem/Desktop/wait-for-it.sh -t 0 http://127.0.0.1:8081/predict -- echo "Backend services are ready!"'
+                }
+            }
+        }
          stage('Run tests against the container') {
       steps {
         // Attendre un peu pour permettre aux conteneurs de démarrer
+
 
                   // Create and activate a virtual environment
                     sh 'python3 -m venv venv'
