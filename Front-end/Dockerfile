@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # Install any needed packages specified in requirements.txt
-RUN pip3 install --no-cache-dir -r requirements.txt
+# RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Expose the port on which the Flask application will run
 EXPOSE 8080
