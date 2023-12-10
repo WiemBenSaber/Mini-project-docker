@@ -42,7 +42,7 @@ pipeline {
                     // Run the tests
                     //sh 'curl http://localhost:8081/predict'
                     //sh 'curl http://127.0.0.1:8082/vgg'
-                    sh 'python3 -m unittest tests/prediction_tests.py'
+                    sh 'python3 tests/prediction_tests.py'
                 }
             }
         }
