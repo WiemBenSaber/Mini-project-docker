@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18ba2028-bf98-485d-bbb6-455a1b421c92" name="Changes" comment="" />
+    <list default="true" id="18ba2028-bf98-485d-bbb6-455a1b421c92" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +29,9 @@
       </map>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Back-end-svm/app.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -37,6 +42,7 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Wu6NgEXrLaXGTySPy1gfroygwv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -120,7 +126,7 @@
       <workItem from="1701262219314" duration="15737000" />
       <workItem from="1701337393196" duration="110000" />
       <workItem from="1701338488154" duration="207000" />
-      <workItem from="1702155199315" duration="337000" />
+      <workItem from="1702155199315" duration="2337000" />
     </task>
     <servers />
   </component>
