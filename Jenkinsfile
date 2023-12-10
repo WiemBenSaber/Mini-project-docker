@@ -6,6 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
+                   env.PATH = "/usr/local/bin:${env.PATH}"
                     // Installer les dépendances nécessaires
                     //sh 'pip install requests'
 
@@ -32,10 +33,4 @@ pipeline {
         // Ajoutez d'autres étapes de pipeline selon vos besoins
     }
 
-    post {
-        always {
-            // Arrêter et supprimer les conteneurs Docker après l'exécution du pipeline
-            sh 'docker-compose down'
-        }
-    }
 }
