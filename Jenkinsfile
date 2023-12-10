@@ -24,9 +24,13 @@ pipeline {
       steps {
         // Attendre un peu pour permettre aux conteneurs de démarrer
 
-                   sleep 20
-                    echo 'tested..'
-                    sh 'pip3 install requests'
+                  // Create and activate a virtual environment
+                    sh 'python3 -m venv venv'
+                    sh 'source venv/bin/activate'
+
+                    // Install required dependencies
+                    sh 'pip3 install requests werkzeug'
+
                     // Exécuter les tests
                     sh 'python3 -m unittest tests/prediction_tests.py'
            }
