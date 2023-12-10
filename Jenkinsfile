@@ -10,6 +10,7 @@ pipeline {
                     //sh 'pip install requests'
 
                     // Construire et lancer les conteneurs Docker
+                    sh 'pip install docker-compose'
                     //sh 'docker-compose build'
                     sh 'docker-compose up -d'
                     sh 'docker-compose ps'
