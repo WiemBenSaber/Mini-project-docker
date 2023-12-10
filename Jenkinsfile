@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Installer les dépendances nécessaires
-                    sh 'pip install requests'
+                    //sh 'pip install requests'
 
                     // Construire et lancer les conteneurs Docker
                     sh 'docker-compose build'
