@@ -4,7 +4,7 @@ FROM python:3.9
 # Set the working directory to /app
 WORKDIR /app
 # Install the required packages
-RUN apt-get update && apt-get install -y libsndfile1
+#RUN apt-get update && apt-get install -y libsndfile1
 
 # Copy the necessary backend files to the container
 COPY app.py modeltest.pkl requirements.txt scalertest.pkl /app/

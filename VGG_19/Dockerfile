@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Install the required packages
-RUN apt-get update && apt-get install -y libsndfile1
+# RUN apt-get update && apt-get install -y libsndfile1
 
 # Copy the necessary backend files to the container
 COPY app.py  requirements.txt vgg19_model.h5 /app/
