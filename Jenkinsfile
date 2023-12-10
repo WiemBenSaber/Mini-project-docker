@@ -10,10 +10,10 @@ pipeline {
                     //sh 'pip install requests'
 
                     // Construire et lancer les conteneurs Docker
-                    sh 'pip3 install docker-compose'
-                    sh '/usr/bin/docker-compose build'
-                    sh '/usr/bin/docker-compose up'
-                    sh '/usr/bin/docker-compose ps'
+                   // sh 'pip3 install docker-compose'
+                    sh 'docker compose build'
+                    sh 'docker compose up'
+                    sh 'docker compose ps'
 
 
                 }
