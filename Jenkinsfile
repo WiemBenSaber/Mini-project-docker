@@ -18,7 +18,7 @@ pipeline {
             steps {
                 script {
                     // Use the correct path to the wait-for-it script
-                    sh '/usr/local/bin/wait-for-it.sh -t 60 http://127.0.0.1:8081/predict -- echo "Backend services are ready!"'
+                    sh '/Users/wiem/Desktop/wait-for-it.sh -t 60 http://127.0.0.1:8081/predict -- echo "Backend services are ready!"'
                 }
             }
         }
