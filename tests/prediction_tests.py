@@ -20,6 +20,5 @@ if __name__ == '__main__':
     # Example usage
     model_url = 'http://127.0.0.1:8081/predict'  # Replace with the actual URL
     audio_file_path = 'Front-end/audio_to_predict.wav'  # Replace with the actual path
-
     # Call the test function
-    test_prediction_results(model_url, audio_file_path)
+    test_prediction_results(model_url, audio_file_path).main()
