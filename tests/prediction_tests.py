@@ -23,7 +23,8 @@ class TestPredictions(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         predicted_genre = response.json().get("predicted_genre")
         self.assertIsNotNone(predicted_genre, "La clé 'predicted_genre' n'est pas présente dans la réponse JSON.")
-        self.assertEqual(predicted_genre, "expected_prediction_backend")
+        expected_genres = ["expected_prediction_vgg19"] + self.genres
+        self.assertIn(predicted_genre, expected_genres, f"Prédiction inattendue : {predicted_genre}")
 
     def test_vgg19_backend_prediction(self):
         # Chemin vers un fichier audio existant sur votre système
