@@ -10,7 +10,7 @@ WORKDIR /app
 COPY app.py modeltest.pkl requirements.txt scalertest.pkl /app/
 
 # Install any needed packages specified in requirements.txt
-#RUN pip3 install --trusted-host pypi.python.org -r requirements.txt
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 # Expose the port used by your Flask application
 EXPOSE 8081

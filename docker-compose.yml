@@ -4,7 +4,7 @@ services:
     build:
       context: ./Front-end  # Path to the directory containing frontend Dockerfile
     ports:
-      - "8080:8080"
+      - "8083:8083"
     volumes:
       - ./Front-end:/app
     depends_on:

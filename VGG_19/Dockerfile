@@ -5,13 +5,13 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Install the required packages
-# RUN apt-get update && apt-get install -y libsndfile1
+RUN apt-get update && apt-get install -y libsndfile1
 
 # Copy the necessary backend files to the container
 COPY app.py  requirements.txt vgg19_model.h5 /app/
 
 # Install any needed packages specified in requirements.txt
-#RUN pip3 install --trusted-host pypi.python.org -r requirements.txt
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 # Expose the port for Flask application
 EXPOSE 8082

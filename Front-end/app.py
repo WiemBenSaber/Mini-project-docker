@@ -30,4 +30,4 @@ def home():
     return render_template('index.html', predicted_genre=predicted_genre)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=8083)
