@@ -25,7 +25,7 @@ class TestPredictions(unittest.TestCase):
         self.assertIsNotNone(predicted_genre, "La clé 'predicted_genre' n'est pas présente dans la réponse JSON.")
         expected_genres = ["expected_prediction_vgg19"] + self.genres
         self.assertIn(predicted_genre, expected_genres, f"Prédiction inattendue : {predicted_genre}")
-        print(predicted_genre)
+        self.logger.info(f"Backend Prediction: {predicted_genre}")
 
     def test_vgg19_backend_prediction(self):
         # Chemin vers un fichier audio existant sur votre système
@@ -46,7 +46,8 @@ class TestPredictions(unittest.TestCase):
         # Ajoutez la liste des genres à la liste des genres attendus
         expected_genres = ["expected_prediction_vgg19"] + self.genres
         self.assertIn(predicted_genre, expected_genres, f"Prédiction inattendue : {predicted_genre}")
-        print(predicted_genre)
+        self.logger.info(f"VGG19 Backend Prediction: {predicted_genre}")
+
 
 if __name__ == '__main__':
     unittest.main()
