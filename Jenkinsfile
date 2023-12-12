@@ -23,16 +23,6 @@ pipeline {
                     // Wait for a few seconds to allow containers to fully start
                     sleep 10
 
-                    // Create and activate a virtual environment
-                    sh 'python3 -m venv venv'
-                    sh 'source venv/bin/activate'
-
-                    // Install required dependencies
-                    sh 'pip3 install requests werkzeug'
-
-                    // Run the tests
-                    //sh 'curl http://localhost:8081/predict'
-                    //sh 'curl http://127.0.0.1:8082/vgg'
                     sh 'python3 tests/prediction_tests.py'
                 }
             }

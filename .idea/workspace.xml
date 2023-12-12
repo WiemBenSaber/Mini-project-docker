@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="18ba2028-bf98-485d-bbb6-455a1b421c92" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end-svm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end-svm/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VGG_19/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/VGG_19/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/prediction_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/prediction_tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +129,7 @@
       <workItem from="1701337393196" duration="110000" />
       <workItem from="1701338488154" duration="207000" />
       <workItem from="1702155199315" duration="20741000" />
-      <workItem from="1702393446439" duration="6269000" />
+      <workItem from="1702393446439" duration="7764000" />
     </task>
     <servers />
   </component>
