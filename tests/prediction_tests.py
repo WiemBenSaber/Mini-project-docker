@@ -47,7 +47,5 @@ class TestPredictions(unittest.TestCase):
         expected_genres = ["expected_prediction_vgg19"] + self.genres
         self.assertIn(predicted_genre, expected_genres, f"Prédiction inattendue : {predicted_genre}")
 
-
-
 if __name__ == '__main__':
     unittest.main()

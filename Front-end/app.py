@@ -4,8 +4,8 @@ from flask import Flask, render_template, request
 app = Flask(__name__, static_url_path='/static', static_folder='static')
 
 # Define the URLs for the backend services
-svm_backend_url = 'http://192.168.1.20:8081/predict'
-vgg19_backend_url = 'http://192.168.1.20:8082/vgg'
+svm_backend_url = 'http://10.20.2.11:8081/predict'
+vgg19_backend_url = 'http://10.20.2.11:8082/vgg'
 
 # Route for the home page
 @app.route('/', methods=['GET', 'POST'])
