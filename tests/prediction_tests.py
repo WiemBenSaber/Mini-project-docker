@@ -17,7 +17,7 @@ class TestPredictions(unittest.TestCase):
 
         # Chargez le fichier audio dans la requête POST
         with open(audio_file_path, 'rb') as audio_file:
-            files = {'audio_file': ('audio_to_predict.wav', audio_file, 'audio/wav')}
+            files = {'audio_file': ('Front-end/audio_to_predict.wav', audio_file, 'audio/wav')}
             response = requests.post("http://127.0.0.1:8081/predict", files=files)
 
         self.assertEqual(response.status_code, 200)
@@ -50,7 +50,15 @@ class TestPredictions(unittest.TestCase):
     def get_front_end_file_content(self, endpoint):
         # Simule une requête depuis le front-end en récupérant le contenu du fichier audio
         response = requests.get(endpoint)
+
+        # Vérifiez que la requête a réussi
         response.raise_for_status()
-        return response.content
+
+        # Enregistrez le contenu dans un fichier temporaire
+        temp_file_path = 'Front-end/temp_audio_file.wav'
+        with open(temp_file_path, 'wb') as temp_file:
+            temp_file.write(response.content)
+
+        return temp_file_path
 if __name__ == '__main__':
     unittest.main()
