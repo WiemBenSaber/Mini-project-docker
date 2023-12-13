@@ -17,10 +17,12 @@ class TestPredictions(unittest.TestCase):
 
         # Chargez le fichier audio dans la requête POST
         with open(audio_file_path, 'rb') as audio_file:
-            files = {'audio_file': ('Front-end/audio_to_predict.wav', audio_file, 'audio/wav')}
+            files = {'audio_file': ('Front-end/temp_audio_file.wav', audio_file, 'audio/wav')}
             response = requests.post("http://127.0.0.1:8081/predict", files=files)
 
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 200,
+                         f"Prediction request failed with status code {response.status_code}")
+
         predicted_genre = response.json().get("predicted_genre")
         self.assertIsNotNone(predicted_genre, "La clé 'predicted_genre' n'est pas présente dans la réponse JSON.")
         expected_genres = ["expected_prediction_vgg19"] + self.genres
