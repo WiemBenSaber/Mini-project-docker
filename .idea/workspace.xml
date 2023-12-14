@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18ba2028-bf98-485d-bbb6-455a1b421c92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/models/model_svm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/model_vgg19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="18ba2028-bf98-485d-bbb6-455a1b421c92" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +130,7 @@
       <workItem from="1702420589643" duration="325000" />
       <workItem from="1702458115641" duration="74000" />
       <workItem from="1702458308739" duration="16452000" />
-      <workItem from="1702540337395" duration="896000" />
+      <workItem from="1702540337395" duration="1259000" />
     </task>
     <servers />
   </component>
