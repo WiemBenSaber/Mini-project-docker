@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18ba2028-bf98-485d-bbb6-455a1b421c92" name="Changes" comment="" />
+    <list default="true" id="18ba2028-bf98-485d-bbb6-455a1b421c92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/models/model_svm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/model_vgg19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,10 +60,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/VGG_19" />
       <recent name="$PROJECT_DIR$/Back-end-svm" />
       <recent name="$PROJECT_DIR$/Front-end" />
-      <recent name="$PROJECT_DIR$/scripts" />
     </key>
   </component>
   <component name="RunManager" selected="Flask server.flaskProject6">
@@ -128,7 +133,8 @@
       <workItem from="1702393446439" duration="17377000" />
       <workItem from="1702420589643" duration="325000" />
       <workItem from="1702458115641" duration="74000" />
-      <workItem from="1702458308739" duration="5825000" />
+      <workItem from="1702458308739" duration="16452000" />
+      <workItem from="1702540337395" duration="896000" />
     </task>
     <servers />
   </component>
